@@ -3,6 +3,12 @@ body {
     padding: 0;
 }
 
-.grid > div {
+.grid .div {
     border: solid 1px #ccc;
+    background-color: #999;
+}
+.grid {
+display: grid;
+grid-template-columns: 20% 60% 20%;
+grid-column-gap: 20px;
 }

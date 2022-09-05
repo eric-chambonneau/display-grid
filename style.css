@@ -1,14 +1,26 @@
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+}
+.grid > div {
+  background-color: #ccc;
+  border: solid 1px #999;
+}
+.site {
+  display: grid;
+  grid-template-rows: 100px 1fr 50px;
+  grid-template-columns: 2fr 8fr;
+}
+.header {
+  background-color: #ccc;
+  border: solid 1px #999;
 }
 
-.grid .div {
-    border: solid 1px #ccc;
-    background-color: #999;
+.sidebar {
+  background-color: rgb(60, 48, 224);
+  border: solid 1px rgb(25, 5, 82);
 }
-.grid {
-display: grid;
-grid-template-columns: 20% 60% 20%;
-grid-column-gap: 20px;
+.footer {
+  background-color: #ccc;
+  border: solid 1px #999;
 }
